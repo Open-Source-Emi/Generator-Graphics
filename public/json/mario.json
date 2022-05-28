@@ -1,0 +1,161 @@
+{
+    "personas": [
+        {
+            "NOMBRE": "Remberto Quinteros Chavez",
+            "CEDULA": "4474608",
+            "CONTRATO": "Plazo Fijo",
+            "DESIGNACION": "Interino",
+            "id": "1",
+            "parentid": "0",
+            "GENERO": "Varon",
+            "INAMOVILIDAD": "Fuero",
+            "VIGENCIA": "12/31/18",
+            "NROCONTRATO": "1 Contrato"
+        },
+        {
+            "NOMBRE": "MARIA TERESA SALAS FERNANDEZ",
+            "CEDULA": "3328031",
+            "CONTRATO": "Indefinido",
+            "DESIGNACION": "Titular",
+            "id": "7",
+            "parentid": "1",
+            "GENERO": "Mujer",
+            "INAMOVILIDAD": "No Tiene",
+            "VIGENCIA": "0",
+            "NROCONTRATO": "5 Contratos"
+        },
+        {
+            "NOMBRE": "LUIS ALBERTO CUENTAS COSSIO",
+            "CEDULA": "4833151",
+            "CONTRATO": "Indefinido",
+            "DESIGNACION": "Titular",
+            "id": "8",
+            "parentid": "45",
+            "GENERO": "Varon",
+            "INAMOVILIDAD": "No Tiene",
+            "VIGENCIA": "0",
+            "NROCONTRATO": "4 Contratos"
+        },
+        {
+            "NOMBRE": "Jaime Boris Jaldin Magne",
+            "CEDULA": "5376234",
+            "CONTRATO": "Plazo Fijo",
+            "DESIGNACION": "interino",
+            "id": "4",
+            "parentid": "1",
+            "GENERO": "Varon",
+            "INAMOVILIDAD": "No Tiene",
+            "VIGENCIA": "0",
+            "NROCONTRATO": "2 Contratos"
+        },
+        {
+            "NOMBRE": "HUGO ENRIQUE PARADA PERASSO",
+            "CEDULA": "3867032",
+            "CONTRATO": "Plazo Fijo",
+            "DESIGNACION": "Titular",
+            "id": "44",
+            "parentid": "4",
+            "GENERO": "Varon",
+            "INAMOVILIDAD": "Comite",
+            "VIGENCIA": "6/30/18",
+            "NROCONTRATO": "2 Contratos"
+        },
+        {
+            "NOMBRE": "Luz Maribel Garay Quisbert",
+            "CEDULA": "4761033",
+            "CONTRATO": "Plazo Fijo",
+            "DESIGNACION": "Interino",
+            "id": "10",
+            "parentid": "44",
+            "GENERO": "Mujer",
+            "INAMOVILIDAD": "Comision",
+            "VIGENCIA": "10/31/19",
+            "NROCONTRATO": "3 Contratos"
+        },
+        {
+            "NOMBRE": "RICARDO DEMETRIO HUMBOLT OCHOA",
+            "CEDULA": "389449",
+            "CONTRATO": "Plazo Fijo",
+            "DESIGNACION": "Titular",
+            "id": "45",
+            "parentid": "7",
+            "GENERO": "Varon",
+            "INAMOVILIDAD": "No Tiene",
+            "VIGENCIA": "0",
+            "NROCONTRATO": "3 Contratos"
+        },
+        {
+            "NOMBRE": "HIPOLITO MONTENEGRO JUSTINIANO",
+            "CEDULA": "3285255",
+            "CONTRATO": "Indefinido",
+            "DESIGNACION": "Titular",
+            "id": "46",
+            "parentid": "4",
+            "GENERO": "Varon",
+            "INAMOVILIDAD": "Maternidad",
+            "VIGENCIA": "9/10/18",
+            "NROCONTRATO": "4 Contratos"
+        },
+        {
+            "NOMBRE": "SANDRA ALGARAÑAZ ANTEZANA",
+            "CEDULA": "5896862",
+            "CONTRATO": "Indefinido",
+            "DESIGNACION": "Titular",
+            "id": "57",
+            "parentid": "46",
+            "GENERO": "Mujer",
+            "INAMOVILIDAD": "No Tiene",
+            "VIGENCIA": "0",
+            "NROCONTRATO": "3 Contratos"
+        },
+        {
+            "NOMBRE": "ROLANDO GONZALES PEREZ",
+            "CEDULA": "3899346",
+            "CONTRATO": "Indefinido",
+            "DESIGNACION": "Titular",
+            "id": "47",
+            "parentid": "6",
+            "GENERO": "Varon",
+            "INAMOVILIDAD": "No Tiene",
+            "VIGENCIA": "0",
+            "NROCONTRATO": "5 Contratos"
+        },
+        {
+            "NOMBRE": "ERICK JAVIER VILLARROEL COVARRUBIAS",
+            "CEDULA": "3618918",
+            "CONTRATO": "Plazo Fijo",
+            "DESIGNACION": "Interino",
+            "id": "48",
+            "parentid": "23",
+            "GENERO": "Varon",
+            "INAMOVILIDAD": "No Tiene",
+            "VIGENCIA": "0",
+            "NROCONTRATO": "1 Contrato"
+        },
+        {
+            "NOMBRE": "Rolando Felix Mostajo Villena",
+            "CEDULA": "4627234",
+            "CONTRATO": "Plazo Fijo",
+            "DESIGNACION": "Interino",
+            "id": "23",
+            "parentid": "47",
+            "GENERO": "Varon",
+            "INAMOVILIDAD": "No Tiene",
+            "VIGENCIA": "0",
+            "NROCONTRATO": "3 Contratos"
+        },
+        {
+            "NOMBRE": "Galindo Fidel Urzagaste Herrera",
+            "CEDULA": "5800160",
+            "CONTRATO": "Indefinido",
+            "DESIGNACION": "Interino",
+            "id": "6",
+            "parentid": "1",
+            "GENERO": "Varon",
+            "INAMOVILIDAD": "Discapacidad",
+            "VIGENCIA": "11/30/17",
+            "NROCONTRATO": "3 Contratos"
+        }
+    ],
+    "fecha": "2018-10-23T17:13:39.736Z"
+}

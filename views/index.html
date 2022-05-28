@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Prueba de libreria</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <!-- jQuery includes -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
+
+    <script src="js/jszip.js" type="text/javascript"></script>
+    <script src="js/xlsx.full.min.js" type="text/javascript"></script>
+    <script src="js/ods.js" type="text/javascript"></script>
+    <script src="js/tab.js" type="text/javascript"></script>
+    <script src="js/echarts.min.js" type="text/javascript"></script>
+    <script src="js/organigrama.js" type="text/javascript"></script>
+    <script src="js/getrequest.js" type="text/javascript"></script>
+    <!--script src="https://unpkg.com/axios/dist/axios.min.js"></script-->
+    <script src="js/html2canvas.js" type="text/javascript"></script>
+    <script src="js/jspdf.js" type="text/javascript"></script>
+    <script src="js/script.js" type="text/javascript"></script>
+    <script src="js/grafico.js" type="text/javascript"></script>
+    <script src="js/libreria.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <header id="header" class="">
+        <input id="files" name="files" type="file" onchange="handleDrop(event);" />
+        <ul>
+            <li id="selectProv">
+
+            </li>
+        </ul>
+        <ul>
+            <li id="selectMuni">
+
+            </li>
+        </ul>
+        <ul>
+            <li><i class="fa fa-sitemap fa-lg"></i>
+                <ul class="content_panel">
+
+                </ul>
+            </li>
+        </ul>
+
+
+        <ul class="col-lg-8"></ul>
+
+
+        <ul id="archAbierto" class="derecha">
+            <li>
+                <span id="archivoabr"> </span>
+            </li>
+        </ul>
+
+    </header>
+
+    <div class="container">
+        <div class="row" id="contenedorgraf">
+
+        </div>
+    </div>
+
+    <div id="graficop"></div>
+    <div id="graficopie"></div>
+
+    <div id="panelconfiguracion">
+        <span id="cerrar">X</span>
+        <h4 class="title_lb">Panel de Configuracion</h4>
+        <hr>
+        <div class="span10" id="config">
+            <div>
+                <label>Selectores : </label>
+                <input type="text" name="selectores" id="selectores" value="" />
+            </div>
+            <div>
+                <label>Parametrizacion : </label>
+                <input type="text" name="parametrizacion" id="parametrizacion" value="" />
+            </div>
+            <div>
+                <label>Estadisticas : </label>
+                <input type="text" name="estadis" id="estadis" value="" />
+            </div>
+            <div>
+                <label>En un solo gráfico : </label>
+                <input type="checkbox" name="multiple" id="multiple" checked />
+            </div>
+        </div>
+        <hr>
+        <div class="span8" id="boton">
+            <button id="configacepta_node" class="btn small" onclick="todoConfig(0);">Aceptar</button>
+        </div>
+    </div>
+
+    <script type="text/javascript" charset="utf-8">
+        function graficar(ele) {
+            var col = $(ele).attr("id");
+            var anter = $("#estadis").val();
+            var vector = $("#estadis").val().split(",");
+            if (vector.includes(col)) {
+                vector.splice(vector.indexOf(col), 1)
+                $("#estadis").val(vector.join(","))
+            } else {
+                (anter == "") ? $("#estadis").val(col): $("#estadis").val(anter + ',' + col);
+            }
+        }
+
+        function todoConfig(org) {
+            if (org == 0) {
+                var tabla = $('table#jsonTable').get(0);
+                org = tablaJson(tabla);
+            }
+            crearPanel(org);
+            crearEstadis(org);
+            crearSelectoresInicio(org);
+        }
+    </script>
+</body>
+
+</html>

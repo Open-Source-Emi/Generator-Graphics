@@ -1,0 +1,212 @@
+{
+    "personas": [
+        {
+            "NOMBRE": "Remberto Quinteros Chavez",
+            "NUM_CARP": "290248",
+            "PUESTO": "Gerente de Tecnologías de la Información Corporativo",
+            "SEDE": "La Paz",
+            "CI": "4474608",
+            "id": "1",
+            "parentid": "0"
+        },
+        {
+            "NOMBRE": "MARIA TERESA SALAS FERNANDEZ",
+            "NUM_CARP": "144600",
+            "PUESTO": "Secretaria",
+            "SEDE": "La Paz",
+            "CI": "3328031",
+            "id": "7",
+            "parentid": "1"
+        },
+        {
+            "NOMBRE": "LUIS ALBERTO CUENTAS COSSIO",
+            "NUM_CARP": "216774",
+            "PUESTO": "Mensajero",
+            "SEDE": "La Paz",
+            "CI": "4833151",
+            "id": "8",
+            "parentid": "6"
+        },
+        {
+            "NOMBRE": "Richard Perales Mollericona",
+            "NUM_CARP": "674736",
+            "PUESTO": "Ingeniero de Redes",
+            "SEDE": "La Paz",
+            "CI": "6733564",
+            "id": "",
+            "parentid": ""
+        },
+        {
+            "NOMBRE": "Luz Maribel Garay Quisbert",
+            "NUM_CARP": "276772",
+            "PUESTO": "Administrador de la Seguridad de la Información",
+            "SEDE": "La Paz",
+            "CI": "4761033",
+            "id": "10",
+            "parentid": "1"
+        },
+        {
+            "NOMBRE": "Ximena Denisse Mollinedo Banda",
+            "NUM_CARP": "290230",
+            "PUESTO": "Directora de Soporte Corporativo",
+            "SEDE": "La Paz",
+            "CI": "3379586",
+            "id": "3",
+            "parentid": "6"
+        },
+        {
+            "NOMBRE": "JUAN JOSE GUARACHI CANEDO",
+            "NUM_CARP": "218890",
+            "PUESTO": "Jefe de Unidad de Soporte LPZ",
+            "SEDE": "La Paz",
+            "CI": "3076970",
+            "id": "5",
+            "parentid": "3"
+        },
+        {
+            "NOMBRE": "Rosio Teresa Eguivar Estrada",
+            "NUM_CARP": "284156",
+            "PUESTO": "Analista de Control de Calidad",
+            "SEDE": "La Paz",
+            "CI": "3468899",
+            "id": "16",
+            "parentid": "5"
+        },
+        {
+            "NOMBRE": "MIGUEL ANGEL PACHECO MARTINEZ",
+            "NUM_CARP": "201858",
+            "PUESTO": "Responsable de Soporte",
+            "SEDE": "Potosí",
+            "CI": "4845042",
+            "id": "17",
+            "parentid": "3"
+        },
+        {
+            "NOMBRE": "MARIO ROLANDO RAMIREZ BOTTANI",
+            "NUM_CARP": "147363",
+            "PUESTO": "TECNICO DE SOPORTE POTOSI",
+            "SEDE": "Potosí",
+            "CI": "2616768",
+            "id": "27",
+            "parentid": "17"
+        },
+        {
+            "NOMBRE": "Rene Pastor Mamani Flores",
+            "NUM_CARP": "7787323",
+            "PUESTO": "Ingeniero de Software",
+            "SEDE": "La Paz",
+            "CI": "4985702",
+            "id": "",
+            "parentid": ""
+        },
+        {
+            "NOMBRE": "WILBERT MERILES QUINTANILLA",
+            "NUM_CARP": "204408",
+            "PUESTO": "Responsable de Soporte",
+            "SEDE": "Sucre",
+            "CI": "3649646",
+            "id": "18",
+            "parentid": "3"
+        },
+        {
+            "NOMBRE": "DEMETRIO FELIX JALACORI TUMIRI",
+            "NUM_CARP": "274864",
+            "PUESTO": "Técnico de Soporte",
+            "SEDE": "Sucre",
+            "CI": "4630783",
+            "id": "28",
+            "parentid": "18"
+        },
+        {
+            "NOMBRE": "OSMAN YASSIR CABRERA SANCHEZ",
+            "NUM_CARP": "176000",
+            "PUESTO": "Responsable de Soporte",
+            "SEDE": "Camiri",
+            "CI": "4635903",
+            "id": "19",
+            "parentid": "3"
+        },
+        {
+            "NOMBRE": "SANTOS JAVIER HUMACATA FERNANDEZ",
+            "NUM_CARP": "200090",
+            "PUESTO": "Técnico de Soporte",
+            "SEDE": "Camiri",
+            "CI": "4152560",
+            "id": "30",
+            "parentid": "19"
+        },
+        {
+            "NOMBRE": "ARNILDO EMILIO CARDOZO DAZA",
+            "NUM_CARP": "272340",
+            "PUESTO": "Profesional de Soporte El Alto",
+            "SEDE": "El Alto",
+            "CI": "3353530",
+            "id": "31",
+            "parentid": "3"
+        },
+        {
+            "NOMBRE": "Bruno David Yapura Mamani",
+            "NUM_CARP": "250010",
+            "PUESTO": "Técnico de Soporte",
+            "SEDE": "El Alto",
+            "CI": "3427879",
+            "id": "33",
+            "parentid": "31"
+        },
+        {
+            "NOMBRE": "Luis Fernando Catacora Illanes",
+            "NUM_CARP": "219750",
+            "PUESTO": "Responsable de Soporte I",
+            "SEDE": "Cochabamba",
+            "CI": "3353058",
+            "id": "20",
+            "parentid": "3"
+        },
+        {
+            "NOMBRE": "JUAN CARLOS TORREZ LAURA",
+            "NUM_CARP": "204090",
+            "PUESTO": "Técnico de Soporte",
+            "SEDE": "Cochabamba",
+            "CI": "4851759",
+            "id": "24",
+            "parentid": "20"
+        },
+        {
+            "NOMBRE": "Carlos Alberto Galean Tarifa",
+            "NUM_CARP": "218690",
+            "PUESTO": "Responsable de Soporte III",
+            "SEDE": "Tarija",
+            "CI": "5021132",
+            "id": "21",
+            "parentid": "3"
+        },
+        {
+            "NOMBRE": "Marco Antonio Condori Nina",
+            "NUM_CARP": "275656",
+            "PUESTO": "Responsable de Soporte III",
+            "SEDE": "Riberalta",
+            "CI": "6124811",
+            "id": "22",
+            "parentid": "3"
+        },
+        {
+            "NOMBRE": "Kieferth  Vinique Chavez",
+            "NUM_CARP": "220342",
+            "PUESTO": "Técnico de Soporte",
+            "SEDE": "Cobija",
+            "CI": "6751846",
+            "id": "29",
+            "parentid": "22"
+        },
+        {
+            "NOMBRE": "Galindo Fidel Urzagaste Herrera",
+            "NUM_CARP": "275230",
+            "PUESTO": "Jefe de Unidad de Soporte e Infraestructura VLM",
+            "SEDE": "Villa Montes",
+            "CI": "5800160",
+            "id": "6",
+            "parentid": "1"
+        }
+    ],
+    "fecha": "2018-11-14T17:52:09.550Z"
+}

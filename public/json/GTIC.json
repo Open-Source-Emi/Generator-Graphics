@@ -1,0 +1,115 @@
+{
+    "personas": [
+        {
+            "NOMBRE": "Remberto Quinteros Chavez",
+            "CEDULA": "4474608",
+            "CONTRATO": "Plazo Fijo",
+            "DESIGNACION": "Interino",
+            "id": "1",
+            "parentid": "0",
+            "GENERO": "Varon",
+            "REDESSOCIALES": "fecebook"
+        },
+        {
+            "NOMBRE": "Vacante",
+            "CEDULA": "0",
+            "CONTRATO": "No Tiene",
+            "DESIGNACION": "Titular",
+            "id": "7",
+            "parentid": "1",
+            "GENERO": "Mujer",
+            "REDESSOCIALES": "twitter"
+        },
+        {
+            "NOMBRE": "LUIS ALBERTO CUENTAS COSSIO",
+            "CEDULA": "4833151",
+            "CONTRATO": "Indefinido",
+            "DESIGNACION": "Titular",
+            "id": "8",
+            "parentid": "1",
+            "GENERO": "Varon",
+            "REDESSOCIALES": "histagram"
+        },
+        {
+            "NOMBRE": "Jaime Boris Jaldin Magne",
+            "CEDULA": "5376234",
+            "CONTRATO": "Plazo Fijo",
+            "DESIGNACION": "Interino",
+            "id": "4",
+            "parentid": "1",
+            "GENERO": "Varon",
+            "REDESSOCIALES": "fecebook"
+        },
+        {
+            "NOMBRE": "HUGO ENRIQUE PARADA PERASSO",
+            "CEDULA": "3867032",
+            "CONTRATO": "Plazo Fijo",
+            "DESIGNACION": "Titular",
+            "id": "44",
+            "parentid": "4",
+            "GENERO": "Varon",
+            "REDESSOCIALES": "fecebook"
+        },
+        {
+            "NOMBRE": "RICARDO DEMETRIO HUMBOLT OCHOA",
+            "CEDULA": "389449",
+            "CONTRATO": "Plazo Fijo",
+            "DESIGNACION": "Titular",
+            "id": "45",
+            "parentid": "4",
+            "GENERO": "Varon",
+            "REDESSOCIALES": "twitter"
+        },
+        {
+            "NOMBRE": "HIPOLITO MONTENEGRO JUSTINIANO",
+            "CEDULA": "3285255",
+            "CONTRATO": "Indefinido",
+            "DESIGNACION": "Titular",
+            "id": "46",
+            "parentid": "4",
+            "GENERO": "Varon",
+            "REDESSOCIALES": "twitter"
+        },
+        {
+            "NOMBRE": "Vacante",
+            "CEDULA": "0",
+            "CONTRATO": "No Tiene",
+            "DESIGNACION": "Titular",
+            "id": "57",
+            "parentid": "6",
+            "GENERO": "Mujer",
+            "REDESSOCIALES": "histagram"
+        },
+        {
+            "NOMBRE": "ERICK JAVIER VILLARROEL COVARRUBIAS",
+            "CEDULA": "3618918",
+            "CONTRATO": "Plazo Fijo",
+            "DESIGNACION": "Interino",
+            "id": "48",
+            "parentid": "4",
+            "GENERO": "Varon",
+            "REDESSOCIALES": "twitter"
+        },
+        {
+            "NOMBRE": "Galindo Fidel Urzagaste Herrera",
+            "CEDULA": "5800160",
+            "CONTRATO": "Indefinido",
+            "DESIGNACION": "Interino",
+            "id": "6",
+            "parentid": "1",
+            "GENERO": "Varon",
+            "REDESSOCIALES": "fecebook"
+        },
+        {
+            "NOMBRE": "jose arce",
+            "CEDULA": "5944510",
+            "CONTRATO": "Plazo Fijo",
+            "DESIGNACION": "Interino",
+            "id": "99",
+            "parentid": "8",
+            "GENERO": "Varon",
+            "REDESSOCIALES": "histagram"
+        }
+    ],
+    "fecha": "2018-10-06T14:37:20.719Z"
+}

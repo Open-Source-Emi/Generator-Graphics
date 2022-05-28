@@ -1,0 +1,63 @@
+
+.jOrgChart {
+  padding: 38px;
+}
+
+.jOrgChart .line {
+  height                : 12px;
+  width                 : 1px;
+}
+
+.jOrgChart .down {
+  background-color 		: black;	
+  margin 				: 0px auto;
+}
+
+.jOrgChart .top {
+  border-top          : 1px solid black;
+}
+
+.jOrgChart .left {
+  border-right          : 1px solid white;
+}
+
+.jOrgChart .right {
+  border-left           : 1px solid black;
+}
+
+/* node cell */
+.jOrgChart td {
+  text-align            : center;
+  vertical-align        : top;
+  padding               : 0;
+}
+
+/* The node */
+.jOrgChart .node {
+  background-color 		: #fff;
+  display               : inline-block;
+  width                 : 100px;
+  z-index 				: 10;
+  margin               : 0 2px;
+  min-height:   170px;
+  max-height:   170px;
+
+  text-align:center;
+}
+
+/* jQuery drag 'n drop */
+
+.drag-active {
+  border-style			: dashed !important;
+  border-color 			: #FC0018 !important;
+  border-width      : 1px !important; 
+}
+
+.drop-hover {
+  border-style			: solid !important;
+  border-color 			: #F80019 !important;
+  border-width      : 2px !important;
+  -moz-box-shadow   : 0px 0px 6px #F62631 !important; 
+  -webkit-box-shadow: 0px 0px 6px #F62631 !important; 
+  box-shadow        : 0px 0px 6px #F62631 !important;
+}
